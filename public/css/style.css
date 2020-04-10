@@ -37,8 +37,7 @@ header a {
 }
 
 .portrait {
-    max-width: 160px;
-    max-height: 250px;
+    max-width: 400px;
 }
 
 input {
