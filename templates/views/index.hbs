@@ -16,13 +16,19 @@
             <input placeholder="Location">
             <button>Search</button>
         </form>
-
-        <h3 id="message-1"></h3>
-        <p id="message-2"></p>
-
+        <h3 id="message"></h3>
         <div>
-            <img class="portrait" src="/img/weather.jpg">
+            <div class="weather-status">
+                <img id="weather-img">
+                <h2 class="temperature" id="temperature"></h2>
+            </div>
+            <p id="weather-description"></p>
+            <p id="wind-degree"></p>
+            <p id="humidity"></p>
+            <p id="last-observed"></p>
         </div>
+        <h3 id="location"></h3>
+
     </div>
     {{>footer}}
     <script src="/js/app.js"></script>
